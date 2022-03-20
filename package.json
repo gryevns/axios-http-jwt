@@ -4,6 +4,9 @@
     "description": "Axios interceptor to store, use, and refresh tokens for authentication.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "files": [
+        "dist/"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/gryevns/axios-http-jwt.git"
@@ -51,12 +54,7 @@
     ],
     "auto": {
         "plugins": [
-            [
-                "npm",
-                {
-                    "publishFolder": "./dist"
-                }
-            ],
+            "npm",
             "released"
         ],
         "onlyPublishWithReleaseLabel": true
