@@ -11,7 +11,7 @@
         "type": "git",
         "url": "git+https://github.com/gryevns/axios-http-jwt.git"
     },
-    "homepage": "https://github.com/jetbridge/axios-http-jwt",
+    "homepage": "https://github.com/gryevns/axios-http-jwt",
     "author": "Gary Evans",
     "license": "MIT",
     "devDependencies": {
