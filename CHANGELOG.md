@@ -1,3 +1,15 @@
+# v1.0.3 (Sun Mar 20 2022)
+
+#### 🐛 Bug Fix
+
+- chore: update package homepage link [#3](https://github.com/gryevns/axios-http-jwt/pull/3) (gryevns+github@gmail.com)
+
+#### Authors: 1
+
+- Gary Evans ([@gryevns](https://github.com/gryevns))
+
+---
+
 # v1.0.2 (Sun Mar 20 2022)
 
 ### Release Notes
