@@ -6,7 +6,7 @@
     "types": "dist/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/gryevns/axios-http-jwt"
+        "url": "git+https://github.com/gryevns/axios-http-jwt.git"
     },
     "homepage": "https://github.com/jetbridge/axios-http-jwt",
     "author": "Gary Evans",
@@ -48,5 +48,23 @@
         "header",
         "typescript",
         "ts"
-    ]
+    ],
+    "auto": {
+        "plugins": [
+            [
+                "npm",
+                {
+                    "publishFolder": "./dist"
+                }
+            ],
+            "released"
+        ],
+        "onlyPublishWithReleaseLabel": true
+    },
+    "bugs": {
+        "url": "https://github.com/gryevns/axios-http-jwt/issues"
+    },
+    "directories": {
+        "test": "tests"
+    }
 }
