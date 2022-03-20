@@ -1,0 +1,52 @@
+{
+    "name": "axios-http-jwt",
+    "version": "1.0.0",
+    "description": "Axios interceptor to store, use, and refresh tokens for authentication.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gryevns/axios-http-jwt"
+    },
+    "homepage": "https://github.com/jetbridge/axios-http-jwt",
+    "author": "Gary Evans",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^27.4.1",
+        "@types/jsonwebtoken": "^8.5.8",
+        "@typescript-eslint/eslint-plugin": "^5.15.0",
+        "@typescript-eslint/parser": "^5.15.0",
+        "auto": "^10.34.2",
+        "axios-mock-adapter": "^1.20.0",
+        "eslint": "^8.11.0",
+        "jest": "^27.5.1",
+        "jsonwebtoken": "^8.5.1",
+        "prettier": "^2.6.0",
+        "ts-jest": "^27.1.3",
+        "typescript": "^4.6.2"
+    },
+    "peerDependencies": {
+        "axios": "^0.26.1"
+    },
+    "dependencies": {
+        "jwt-decode": "^3.1.2"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc -w",
+        "test": "jest",
+        "prepack": "tsc"
+    },
+    "keywords": [
+        "axios",
+        "token",
+        "jwt",
+        "http",
+        "refresh",
+        "authentication",
+        "authorization",
+        "header",
+        "typescript",
+        "ts"
+    ]
+}
