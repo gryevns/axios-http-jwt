@@ -1,3 +1,15 @@
+# v1.0.4 (Thu Nov 17 2022)
+
+#### 🐛 Bug Fix
+
+- chore: audit dependencies [#4](https://github.com/gryevns/axios-http-jwt/pull/4) (gryevns+github@gmail.com)
+
+#### Authors: 1
+
+- Gary Evans ([@gryevns](https://github.com/gryevns))
+
+---
+
 # v1.0.3 (Sun Mar 20 2022)
 
 #### 🐛 Bug Fix
